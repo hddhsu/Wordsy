@@ -143,9 +143,9 @@ logConn = LogService.MessageOut:Connect(function(message, type)
  end
 end)
 
-local url = "https://raw.githubusercontent.com/hddhsu/Wordsy/refs/heads/main/wiktionary_filtered.txt"
+local url = "https://raw.githubusercontent.com/hddhsu/Wordsy/refs/heads/main/combined_words.txt"
 
-local fileName = "wiktionary_filtered.txt"
+local fileName = "combined_words.txt"
 
 \-\- Temporary Loading UI
 local LoadingGui = Instance.new("ScreenGui")
